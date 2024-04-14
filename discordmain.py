@@ -37,12 +37,12 @@ async def check_users_activity():
                         print(f"User {member.name} is playing League, osu or Genshin, not good!")
                         channel = client.get_channel(1227209425060888633)
                         await channel.send(f" {member} your playing haram games, by the power of allah i shall mute you for 1 hour")
-                        # await member.kick(" stupid nigger cant play haram games, get kicked")
-                        # await member.send("nigga u cant play haram games, get kicked, then think about your actions and join again at https://www.discord.gg/arabfunny3")
+                        # await member.kick(" stupid u cant play haram games, get kicked")  command to kick, you can replace "kick" with "ban" to ban instead
+                        # await member.send("yo u cant play haram games, get kicked, then think about your actions and join again")    personal message to the user
                         muted_role = guild.get_role(1227209424846979098)
                         await member.add_roles(muted_role, reason="User playing stupid game")
                         unmute_task = asyncio.create_task(lolmute(member))
-                        muted_users[member.id] = unmute_task
+                        muted_users[member.id] = unmute_task            # comment the previous 4 lines and uncomment the Kick line to just kick the user instead
 
 
 async def lolmute(member):
@@ -61,8 +61,8 @@ async def on_member_update(before, after):
             channel = client.get_channel(1227209425060888633)
             if channel:
                 user_name = after.name
-                print(f"User {user_name} changed his niggname in {after.nick}")
-                await channel.send(f"User {user_name} changed his niggname in \"{after.nick}\" bc he dumb.")
+                print(f"User {user_name} changed his nigname in {after.nick}")
+                await channel.send(f"User {user_name} changed his nigname in \"{after.nick}\" bc he dumb.")
         except Exception as e:
             print(f"An error occurred: {e}")
 
@@ -88,7 +88,7 @@ async def send_message(message: Message, user_message: str) -> None:
 @client.event
 async def on_ready() -> None:
     print(f'{client.user} is now running!')
-    await client.change_presence(status=discord.Status.idle, activity=discord.Streaming(name='ArabFunny sex', url='https://c.tenor.com/zWTsGa_FBRUAAAAC/tenor.gif'))
+    await client.change_presence(status=discord.Status.idle, activity=discord.Streaming(name='CUSTOM STATUS', url='https://c.tenor.com/zWTsGa_FBRUAAAAC/tenor.gif'))
     check_users_activity.start()
 
 

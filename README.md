@@ -12,6 +12,7 @@ You will need to make a new .env file and specify your bot AuthToken, simply cre
 
 # HOW TO CUSTOMIZE
 You will have to replace all of the roles and channels' id of course, you can add as many games you want, and specify what to do once the bot finds a user who plays those games, its all written in the discordmain file. Use the Startwith function because sometimes the name of the game might change in something like "League of legends: lands of idk" so yeah its better to use that function.
+
 Using this bot on multiple server will only allow to kick or ban users, if you want to simply mute them you would have to manage multiple roles, guilds and stuff, but i know how to manage for a single task only, maybe instead you can create mulitple bots, where each one get the IDs for every role and channel you need.
 
 Default mute is set to 1 hour, default cycle to check every user's activity is set to 40 seconds.

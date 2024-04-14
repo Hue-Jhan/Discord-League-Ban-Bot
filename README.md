@@ -3,7 +3,8 @@ Discord Bot that mutes, kicks, or bans players who play League Of Legends, Gensh
 Other simply functions and triggers are included.
 I used an old PyCharm version, but it makes no difference to use the latest one
 
-![alt text](https://i.kym-cdn.com/photos/images/newsfeed/002/304/399/6fc.jpg)
+![alt text](https://preview.redd.it/s4vtf394saf81.jpg?width=640&crop=smart&auto=webp&s=08ab633756b0e3ae306f0710760c58ff7d34cfff)
+
 
 # HOW TO USE
 Simply create a discord bot, there are several youtube tutorials you can follow, and upload this codes to your PyCharm specified folder.

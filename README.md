@@ -1,7 +1,7 @@
 # Discord-League-Ban-Bot
 Discord Bot that mutes, kicks, or bans players who play League Of Legends, Genshin Impact, or Osu, FULLY CUSTOMIZABLE.
 Other simply functions and triggers are included.
-I used an old PyCharm version, but it makes no difference to use the latest one
+I used an old PyCharm version, but it makes no difference to use the latest one, i was inspired by this image:
 
 ![alt text](https://preview.redd.it/s4vtf394saf81.jpg?width=640&crop=smart&auto=webp&s=08ab633756b0e3ae306f0710760c58ff7d34cfff)
 

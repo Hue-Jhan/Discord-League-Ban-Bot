@@ -6,7 +6,7 @@ I used an old PyCharm version, but it makes no difference to use the latest one,
 ![alt text](https://preview.redd.it/s4vtf394saf81.jpg?width=640&crop=smart&auto=webp&s=08ab633756b0e3ae306f0710760c58ff7d34cfff)
 
 
-# HOW TO USE
+# HOW TO USE 😎
 Simply create a discord bot, there are several youtube tutorials you can follow, and upload this codes to your PyCharm specified folder.
 You will need to make a new .env file and specify your bot AuthToken, simply create one and type DISCORD_TOKEN=xxxxxxxxxxxxxxxxxxxx
 
